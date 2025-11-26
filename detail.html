@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes da Cripto - CryptoHunter</title>
+    <link rel="shortcut icon" href="./img/Cripto.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <video id="body-background" autoplay loop muted>
+        <source src="./img/criptohunter.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="header-container">
+            <img src="img/Cripto.jpg" alt="Logo Cripto" class="header-logo">
+            <div class="header-title">
+                <h1>CryptoHunter</h1>
+                <div class="header-nav">
+                    <a href="index.html" class="nav-button">Página Inicial</a>
+                    <a href="watchlist.html" class="nav-button">Minha Watchlist</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Buscar criptomoeda...">
+                <div id="search-results"></div>
+            </div>
+            <img src="img/criptowide.jpg" alt="Logo Cripto Wide" class="header-logo">
+        </div>
+    </header>
+    
+    <main>
+        <section id="coin-detail-container">
+            <!-- Conteúdo detalhado da moeda será inserido aqui -->
+        </section>
+        
+        <section id="chart-container">
+            <canvas id="price-chart"></canvas>
+        </section>
+    </main>
+
+    <script src="js/detail.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
