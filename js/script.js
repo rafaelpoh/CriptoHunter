@@ -1,10 +1,10 @@
 const API_BASE_URL = "https://api.coingecko.com/api/v3";
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetchCryptoData();
+    fetchCriptoData();
 });
 
-async function fetchCryptoData() {
+async function fetchCriptoData() {
     const top5Container = document.getElementById("top-5-container");
     const positiveChangesContainer = document.getElementById("positive-changes-container");
     const negativeChangesContainer = document.getElementById("negative-changes-container");
